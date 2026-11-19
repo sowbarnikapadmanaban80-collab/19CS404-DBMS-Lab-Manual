@@ -220,7 +220,7 @@ INSERT INTO employee2 VALUES (11, 'Aruna', 2500);
 **Expected Output:**
 - If the inserted salary in the `employees` table is below the condition (e.g., salary < 3000), the insert operation is blocked, and an error message is raised, such as: `ERROR: Salary below minimum threshold.`
 <img width="703" height="643" alt="image" src="https://github.com/user-attachments/assets/b8b8b112-1711-4489-9573-0d74fa6060ad" />
-<img width="833" height="162" alt="image" src="https://github.com/user-attachments/assets/e0557378-af6d-4482-a42c-3bf5e23a223a" />
+
 
 
 ## RESULT
