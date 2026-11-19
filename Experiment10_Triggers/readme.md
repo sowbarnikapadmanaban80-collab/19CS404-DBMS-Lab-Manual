@@ -102,9 +102,7 @@ DELETE FROM sensitive_data WHERE id = 1;
 **Expected Output:**
 - If an attempt is made to delete a record from `sensitive_data`, an error message is raised, e.g., `ERROR: Deletion not allowed on this table.`
 <img width="696" height="597" alt="image" src="https://github.com/user-attachments/assets/59482304-b8cd-4c9d-a635-07adb3ce4cdb" />
-<img width="796" height="163" alt="image" src="https://github.com/user-attachments/assets/c1311ba4-c8ca-4c9d-86df-35482c40c092" />
 
----
 
 ## 3. Write a trigger to automatically update a `last_modified` timestamp.
 **Steps:**
